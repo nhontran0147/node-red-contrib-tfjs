@@ -1,0 +1,23 @@
+{
+  "name": "node-red-contrib-tfjs-tutorial",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": [
+    "node-red",
+    "contrib",
+    "tfjs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nhontran0147",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.2.7"
+  },
+  "node-red": {
+    "nodes": {
+      "tfjs-tutorial-node": "index.js"
+    }
+  }
+}
